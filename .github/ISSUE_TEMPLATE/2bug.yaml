@@ -1,24 +1,32 @@
-name: Bug Report2
-description: File a bug report.
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+name: Name.テンプレートの名前
+description: Description.テンプレートの説明
+title: "[Bug]:タイトルのテンプレート"
+labels: 
+  - bug
+projects: 
+  - tanaka-takuto/3
 body:
-  - type: markdown
+  - type: textarea
     attributes:
-      value: |
-        ## aaa
-  - type: input
-    id: testInput
-    attributes:
-      label: ラベル
-      description: 説明
-      placeholder: プレースホルダー
+      label: 目的
+      description: 目的を入れる理由
+      placeholder: |
+        XXのため
     validations:
       required: false
-  - type: markdown
+  - type: textarea
     attributes:
-      value: |
-        ## bbb
+      label: 詳細
+      description: 詳細を入れる理由
+      placeholder: |-
+        1. XXXをする
+        2. YYYをする
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 備考
+      description: 備考を入れる理由
+      placeholder: |-
+        - [project](https://github.com/users/tanaka-takuto/projects/3)
+        - [test](https://docs.github.com/ja/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema)
