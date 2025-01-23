@@ -27,6 +27,6 @@ body:
     attributes:
       label: 備考
       description: 備考を入れる理由
-      placeholder: |-
+      value: |-
         - [project](https://github.com/users/tanaka-takuto/projects/3)
         - [test](https://docs.github.com/ja/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema)
