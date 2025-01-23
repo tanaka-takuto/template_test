@@ -11,6 +11,7 @@ body:
       value: |
         ## aaa
   - type: input
+    id: testInput
     attributes:
       label: ラベル
       description: 説明
