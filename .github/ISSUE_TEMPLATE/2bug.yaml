@@ -6,6 +6,16 @@ labels:
 projects: 
   - tanaka-takuto/3
 body:
+  - type: markdown
+    attributes:
+      value: |
+        # これはマークダウン
+        ### マークダウンテスト
+        <details><summary>詳細</summary>
+          
+          詳細を書く
+        </details>
+
   - type: textarea
     attributes:
       label: 目的
@@ -14,6 +24,7 @@ body:
         XXのため
     validations:
       required: false
+
   - type: textarea
     attributes:
       label: 詳細
@@ -23,6 +34,7 @@ body:
         2. YYYをする
     validations:
       required: false
+
   - type: textarea
     attributes:
       label: 備考
