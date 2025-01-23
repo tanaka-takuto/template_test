@@ -6,11 +6,18 @@ projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
-  - type: input
-    id: contact
+  - type: markdown
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      value: |
+        ## aaa
+  - type: input
+    attributes:
+      label: ラベル
+      description: 説明
+      placeholder: プレースホルダー
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## bbb
